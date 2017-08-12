@@ -1,0 +1,46 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+    box-sizing: border-box;
+}
+
+img {
+    width: 40px;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    position: absolute;
+    width: 100%;
+    
+    h3 {
+    color: white;
+    margin: 0;
+    }
+
+    li {
+    color: white;
+    display: inline-block;
+    }
+
+}
+
+header {
+    color: white;
+    background-image: image_url('bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    // vh - 노트북이든 모바일이든 가장 꽉 맞게 들어가겠다
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
